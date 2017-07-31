@@ -1,0 +1,13 @@
+{
+  "name": "connection-logger",
+  "version": "0.0.1",
+  "description": "Check consistent mappings between IPs and IDs",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "minimist": "^1.2.0",
+    "request-promise-native": "^1.0.4",
+    "uuid": "^3.1.0"
+  }
+}
