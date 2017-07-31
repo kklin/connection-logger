@@ -1,0 +1,9 @@
+#!/bin/bash
+
+case $1 in
+    "client") node ./client.js ${@:2}
+    ;;
+    "server") node ./server.js ${@:2}
+    ;;
+    *) echo "$0 [client|server]"
+esac
